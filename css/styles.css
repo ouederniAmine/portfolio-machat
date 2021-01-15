@@ -288,7 +288,12 @@ button,
 [type=submit] {
   -webkit-appearance: button;
 }
-
+.opacity-2:hover {
+  opacity:0.4!important;
+}
+.opacity-0:hover {
+  opacity:1!important;
+}
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
